@@ -8,7 +8,7 @@ import numpy as np
 logging.basicConfig(level=logging.INFO)
 
 # Load the model
-MODEL_PATH = 'diabetes_model.sav'
+MODEL_PATH = 'diabetes_model_fixed.sav'
 try:
     diabetes_model = pickle.load(open(MODEL_PATH, 'rb'))
     logging.info("Model loaded successfully.")
